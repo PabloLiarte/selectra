@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compara entre los mejores Seguros de Esquí y Snowboard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Navegación */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #015AA3;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        nav img {
+            height: 40px;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 50%;
+            margin: 100px auto 50px auto; /* Ajusta el margen superior para evitar el nav fijo */
+            text-align: center;
+        }
+
+        /* Títulos */
+        h1, h2, h3 {
+            color: #015AA3;
+            margin-bottom: 20px;
+        }
+
+        /* Descripción */
+        .description {
+            margin-bottom: 40px;
+            text-align: left;
+        }
+
+        /* Secciones */
+        section {
+            margin-bottom: 60px;
+            text-align: left;
+        }
+
+        /* Imagen después del título principal */
+        .main-image {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        /* Grid de aseguradoras */
+        .aseguradoras-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .aseguradora {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(1, 90, 163, 0.1);
+            text-align: center;
+        }
+
+        .aseguradora img {
+            max-width: 100%;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+
+        /* Botones */
+        .btn {
+            background-color: #015AA3;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #014885;
+        }
+
+        /* Grid Comparativa */
+        .comparativa-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .comparativa-item {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(1, 90, 163, 0.1);
+            text-align: left;
+        }
+
+        .comparativa-item h3 {
+            color: #015AA3;
+            margin-bottom: 10px;
+        }
+
+        .comparativa-item ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        /* CTA Global */
+        .cta {
+            background-color: #015AA3;
+            color: #ffffff;
+            padding: 30px 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .cta .btn {
+            background-color: #ffffff;
+            color: #015AA3;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta .btn:hover {
+            background-color: #e6e6e6;
+        }
+
+        /* Incluir logo en CTA */
+        .cta img {
+            height: 50px;
+            margin-bottom: 20px;
+        }
+
+        /* Preguntas Frecuentes */
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item h4 {
+            color: #015AA3;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav>
+        <img src="images/logo-selectra.png" alt="Logo">
+    </nav>
+
+    <!-- Contenedor Principal -->
+    <div class="container">
+
+        <!-- Título Principal -->
+        <h1>Compara entre los mejores Seguros de Esquí y Snowboard</h1>
+
+        <!-- Descripción -->
+        <p class="description">
+            Descubre cómo los mejores seguros de esquí y snowboard te protegen frente a imprevistos. Con opciones para días puntuales o toda la temporada, te garantizan tranquilidad mientras disfrutas de tus deportes favoritos. Compara con Selectra coberturas y precios para encontrar el seguro perfecto para ti y aprovecha al máximo tu experiencia en las pistas.
+        </p>
+
+        <!-- Imagen principal -->
+        <img src="images/imagen-seguro-principal.jpg" alt="Imagen de Seguros de Esquí y Snowboard" class="main-image">
+
+        <!-- Sección 1 -->
+        <section id="que-es-cubre">
+            <h2>¿Qué es y qué cubre un seguro de las pistas de esquí y snowboard?</h2>
+            <p>Imagina que estás disfrutando de un día perfecto en la nieve: el cielo despejado y las pistas en perfectas condiciones. Pero, ¿qué sucede si algo no va según lo planeado? Desde un simple contratiempo con tu equipaje hasta un rescate en montaña, estar protegido marca toda la diferencia.</p>
+            <p>Un seguro de esquí y snowboard es tu mejor aliado para disfrutar de esta experiencia sin sobresaltos. Estas pólizas están hechas para esquiadores y snowboarders. Ofrecen coberturas esenciales que garantizan tranquilidad y seguridad. Esto es importante, ya sea por un día en las pistas o toda la temporada. Sí, las coberturas dependen del tipo de seguro y de la compañía que elijas. No te preocupes, más adelante te lo explicamos todo.</p>
+
+            <h3>¿Qué puede cubrir tu seguro de esquí?</h3>
+            <h4>Asistencia médica y sanitaria:</h4>
+            <p>¿Te lesionaste en las pistas? Tu seguro cubre los gastos médicos, quirúrgicos y hospitalarios necesarios. Desde rescates en pista hasta traslados en trineo o ambulancia, estarás en buenas manos si necesitas atención urgente.</p>
+            <p>¿Y si te encuentras en el extranjero? También incluye la repatriación en caso de enfermedad o accidente grave.</p>
+
+            <h4>Equipaje y material deportivo:</h4>
+            <ul>
+                <li>Indemnización por pérdida, robo o daños en tu equipo de esquí o snowboard.</li>
+                <li>Servicio de localización y envío de equipajes extraviados para que nada interrumpa tu aventura en la nieve.</li>
+            </ul>
+
+            <h4>Reembolso de forfait y clases de esquí</h4>
+            <p>¿Un accidente te obliga a interrumpir tus planes? Recibirás un reembolso por el forfait no utilizado.</p>
+            <p>Las clases que no puedas aprovechar también estarán cubiertas, asegurando que recuperes lo perdido.</p>
+
+            <h4>Regreso anticipado y repatriación</h4>
+            <p>Si necesitas regresar por la hospitalización o fallecimiento de un familiar, tu seguro cubrirá todos los gastos.</p>
+            <p>En caso de fallecimiento del asegurado, la póliza incluye la repatriación de los restos mortales al lugar de inhumación.</p>
+
+            <h4>Responsabilidad civil</h4>
+            <p>Cubre los daños a terceros, ya sean personales o materiales, que puedan ocurrir mientras disfrutas de las pistas.</p>
+
+            <h4>Coberturas opcionales para máxima tranquilidad</h4>
+            <ul>
+                <li>Cancelación de viaje: Si surge un imprevisto antes de partir, no tendrás que preocuparte por los gastos.</li>
+                <li>Protección jurídica: Ayuda legal para cualquier problema que enfrentes durante tu estancia en la nieve.</li>
+            </ul>
+        </section>
+
+        <!-- Sección 2 -->
+        <section id="compara-aseguradoras">
+            <h2>Compara entre todos los seguros para esquiadores</h2>
+            <div class="aseguradoras-grid">
+                <div class="aseguradora">
+                    <a href="https://www.mapfre.es/particulares/seguros-viaje/ski-snow/"><img src="images/logo-mapfre.png" alt="Mapfre"></a>
+                </div>
+                <div class="aseguradora">
+                    <a href="https://www.arag.es/productos/seguro-viaje/esquiadores/"><img src="images/logo-arag.png" alt="ARAG"></a>
+                </div>
+                <div class="aseguradora">
+                    <a href="https://www.axa.es/seguros-viajes/seguro-esqui"><img src="images/logo-axa.png" alt="AXA"></a>
+                </div>
+                <div class="aseguradora">
+                    <a href="https://www.fiatc.es/seguro-de-esqui"><img src="images/logo-fiatc.png" alt="FIATC"></a>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <a href="#todas-aseguradoras" class="btn">Ver todas las aseguradoras</a>
+            </div>
+        </section>
+
+        <!-- Sección 3 -->
+        <section id="seguros-dias">
+            <h2>Seguros de esquí por días</h2>
+            <p>¿Planeas una escapada a la nieve por el fin de semana o solo esquiarás unos días? Entonces este tipo de seguro es ideal para quienes esquían ocasionalmente y desean pagar solo por el tiempo que realmente pasarán en las pistas.</p>
+
+            <h3>¿Cuándo elegir un seguro de esquí por días?</h3>
+            <ul>
+                <li><strong>Viajes cortos:</strong> Si vas a pasar un fin de semana en estaciones como Sierra Nevada o Baqueira Beret. Solo pagarás por los días que realmente esquíes.</li>
+                <li><strong>Eventos especiales:</strong> Participar en competiciones locales o jornadas únicas. Este seguro te ofrece tranquilidad durante esos momentos.</li>
+                <li><strong>Esquiadores novatos:</strong> Si estás probando el esquí por primera vez, protegerte durante esos días te permitirá concentrarte en disfrutar.</li>
+            </ul>
+
+            <h3>Modalidades: Individual y Familiar</h3>
+            <h4>Seguro por días individual</h4>
+            <p>Es perfecto para ti si viajas solo o con amigos y quieres sentirte protegido sin comprometerte por más tiempo del necesario. Desde accidentes en las pistas hasta imprevistos con el equipo, este seguro está diseñado para que disfrutes al máximo de tu tiempo en la nieve.</p>
+
+            <h4>Seguro por días familiar</h4>
+            <p>¿Vas con toda la familia? Proteger a los tuyos nunca fue tan sencillo. Este seguro cubre tanto a grandes como a pequeños, para que el único objetivo sea disfrutar juntos mientras esquían o hacen snowboard.</p>
+
+            <!-- CTA Global -->
+            <div class="cta">
+                <img src="images/logo-selectra.png" alt="Logo">
+                <h3>Calculamos tu seguro de forma gratuita</h3>
+                <p>Agentes especializados en asesoramiento en el mercado de seguros.</p>
+                <a href="#calcular-presupuesto" class="btn">Calcular presupuesto</a>
+                <a href="#contacto" class="btn">Te llamamos</a>
+            </div>
+        </section>
+
+        <!-- Sección 4 -->
+        <section id="seguros-temporada">
+            <h2>Seguros de esquí por temporada</h2>
+            <p>Si eres un amante del esquí que pasa buena parte del invierno en las pistas, un seguro por temporada es exactamente lo que necesitas. Diseñado para esquiadores frecuentes, este tipo de póliza asegura protección continua durante toda la temporada invernal.</p>
+
+            <h3>¿Cuándo elegir un seguro de esquí por temporada?</h3>
+            <ul>
+                <li><strong>Esquiadores habituales:</strong> Si visitas estaciones como Grandvalira o Formigal cada semana.</li>
+                <li><strong>Trabajadores de estaciones de esquí:</strong> Monitores, instructores o personal técnico que necesitan estar asegurados durante todo el invierno.</li>
+                <li><strong>Familias apasionadas por el esquí:</strong> Si disfrutas de varias escapadas a la nieve con tus hijos, esta opción asegura a todos los miembros de la familia.</li>
+            </ul>
+
+            <h3>Modalidades: Individual y Familiar</h3>
+            <h4>Seguro por temporada individual</h4>
+            <p>Ideal para quienes esquían regularmente. Ofrece asistencia médica ilimitada, cobertura por rescates y reembolsos de forfaits no usados durante toda la temporada. Pensado para quienes viven la nieve intensamente.</p>
+
+            <h4>Seguro por temporada familiar</h4>
+            <p>Perfecto para proteger a toda la familia durante un invierno completo en la nieve. Cubre asistencia médica para todos, rescates en montaña y protección del equipo. Una opción ideal para familias que aman compartir días en las pistas.</p>
+        </section>
+
+        <!-- Sección 5 -->
+        <section id="mejores-seguros">
+            <h2>Mejores seguros para esquiadores</h2>
+            <div class="comparativa-grid">
+                <!-- Mapfre -->
+                <div class="comparativa-item">
+                    <h3>Mapfre</h3>
+                    <ul>
+                        <li>Asistencia médica en pistas y fuera de ellas.</li>
+                        <li>Rescate en pistas de esquí.</li>
+                        <li>Repatriación sanitaria en caso de accidente o enfermedad.</li>
+                        <li>Reembolso del forfait no utilizado.</li>
+                        <li>Cobertura de responsabilidad civil.</li>
+                    </ul>
+                    <p><strong>Ideal para:</strong> Esquiadores que buscan una cobertura completa y flexible.</p>
+                    <a href="https://www.mapfre.es/seguros/esqui" class="btn">Ver precios</a>
+                </div>
+
+                <!-- ARAG -->
+                <div class="comparativa-item">
+                    <h3>ARAG</h3>
+                    <ul>
+                        <li>Transporte y repatriación en caso de accidente o enfermedad.</li>
+                        <li>Reintegro del forfait y clases de esquí no utilizadas.</li>
+                        <li>Cobertura legal y reclamaciones internacionales.</li>
+                        <li>Protección del equipo en caso de pérdida o daños.</li>
+                    </ul>
+                    <p><strong>Ideal para:</strong> Viajes internacionales y cobertura legal.</p>
+                    <a href="https://www.arag.com/eseguros/esqui" class="btn">Ver precios</a>
+                </div>
+
+                <!-- AXA -->
+                <div class="comparativa-item">
+                    <h3>AXA</h3>
+                    <ul>
+                        <li>Gastos médicos y hospitalarios en cualquier parte del mundo.</li>
+                        <li>Rescate en pistas y búsqueda del asegurado.</li>
+                        <li>Cobertura del equipamiento (rotura o pérdida de esquís).</li>
+                        <li>Indemnización por forfait no utilizado.</li>
+                        <li>Responsabilidad civil privada.</li>
+                    </ul>
+                    <p><strong>Ideal para:</strong> Cobertura global con énfasis en rescates y equipo.</p>
+                    <a href="https://www.axa.es/seguros/esqui" class="btn">Ver precios</a>
+                </div>
+
+                <!-- FIATC -->
+                <div class="comparativa-item">
+                    <h3>FIATC</h3>
+                    <ul>
+                        <li>Asistencia médica y odontológica (hasta 6.000 € ampliables).</li>
+                        <li>Reembolso del forfait y clases de esquí no utilizadas.</li>
+                        <li>Transporte y alojamiento de acompañantes.</li>
+                        <li>Protección del equipaje y equipo deportivo.</li>
+                        <li>Responsabilidad civil privada (hasta 60.000 €).</li>
+                    </ul>
+                    <p><strong>Ideal para:</strong> Familias y esquiadores frecuentes.</p>
+                    <a href="https://www.fiatc.es/seguros/esqui" class="btn">Ver precios</a>
+                </div>
+            </div>
+
+            <!-- Aseguradoras de esquí y snowboard -->
+            <h2>Aseguradoras de esquí y snowboard</h2>
+
+            <!-- Mapfre -->
+            <div class="faq-item">
+                <h3>Seguros de Esquí de Mapfre</h3>
+                <p>Cuando piensas en tranquilidad en las pistas, Mapfre es un nombre que siempre destaca. Ya sea que esquíes un par de días al año o cada fin de semana, sus seguros son tan flexibles como tus planes. Incluyen asistencia médica en pistas, repatriación y reembolso de forfait, para que te concentres solo en disfrutar de la nieve sin preocupaciones.</p>
+            </div>
+
+            <!-- ARAG -->
+            <div class="faq-item">
+                <h3>Seguros de Esquí de ARAG</h3>
+                <p>Con ARAG, estás protegido dentro y fuera de las pistas. Son expertos en ofrecer asistencia legal y coberturas internacionales, perfectas para quienes esquían en destinos más lejanos. Además, si algo interrumpe tu experiencia, reintegran forfaits y clases de esquí no utilizadas. Su misión es que solo te preocupes por vivir el momento.</p>
+            </div>
+
+            <!-- AXA -->
+            <div class="faq-item">
+                <h3>Seguros de Esquí de AXA</h3>
+                <p>AXA entiende que la aventura en la nieve no termina en las pistas. Sus seguros combinan asistencia médica en cualquier parte del mundo con protección para tus esquís, forfaits y equipo personal. ¿Tu prioridad es sentirte respaldado mientras disfrutas? AXA lo tiene cubierto, desde rescates en montaña hasta la reparación de tus esquís.</p>
+            </div>
+
+            <!-- FIATC -->
+            <div class="faq-item">
+                <h3>Seguros de Esquí de FIATC</h3>
+                <p>Si esquiar en familia es lo tuyo, FIATC es tu mejor aliado. Sus productos están diseñados para proteger a todos los miembros, desde los más pequeños hasta los más experimentados. Con opciones ampliables, asistencia médica y cobertura de equipo, FIATC se asegura de que cada momento en la nieve sea inolvidable y sin sobresaltos.</p>
+            </div>
+
+            <!-- CTA Global -->
+            <div class="cta">
+                <img src="images/logo-selectra.png" alt="Logo">
+                <h3>Calculamos tu seguro de forma gratuita</h3>
+                <p>Agentes especializados en asesoramiento en el mercado de seguros.</p>
+                <a href="#calcular-presupuesto" class="btn">Calcular presupuesto</a>
+                <a href="#contacto" class="btn">Te llamamos</a>
+            </div>
+        </section>
+
+        <!-- Sección 6: Preguntas Frecuentes -->
+        <section id="preguntas-frecuentes">
+            <h2>Preguntas Frecuentes</h2>
+            <p>Si estás planeando una escapada a la nieve, es normal que te surjan dudas sobre los seguros de esquí: qué cubren, si son necesarios y cómo elegir el más adecuado. Aquí te resolvemos las preguntas más comunes con ejemplos reales para que disfrutes de la nieve con total tranquilidad.</p>
+
+            <!-- Pregunta 1 -->
+            <div class="faq-item">
+                <h4>1. ¿Es necesario un seguro para esquiar?</h4>
+                <p>Imagina que estás esquiando en Baqueira Beret y sufres una caída que requiere atención médica urgente. Sin un seguro, podrías enfrentarte a gastos médicos inesperados, como el rescate en pista o el traslado al hospital. Además, un seguro también te protege si pierdes tus esquís alquilados o si debes cancelar tu viaje por una enfermedad de última hora. Aunque no siempre es obligatorio, tener un seguro te garantiza disfrutar de tu experiencia sin preocupaciones.</p>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="faq-item">
+                <h4>2. ¿Qué tipos de seguros de esquí existen?</h4>
+                <p>Los seguros de esquí se adaptan a las necesidades de cada viajero. Por ejemplo:</p>
+                <ul>
+                    <li><strong>Seguro por días:</strong> Perfecto si solo vas a esquiar durante un fin de semana en estaciones como Formigal o Grandvalira. Solo pagas por los días que lo necesitas.</li>
+                    <li><strong>Seguro de temporada:</strong> Ideal para quienes esquían regularmente, como los aficionados que pasan varios fines de semana en Sierra Nevada o trabajadores de estaciones de esquí.</li>
+                </ul>
+                <p>Además, puedes optar por una modalidad familiar para proteger a todos los miembros de tu familia o un seguro individual si viajas solo o con amigos.</p>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="faq-item">
+                <h4>3. ¿Es posible contratar un seguro online?</h4>
+                <p>¡Por supuesto! Imagina que decides de último minuto pasar un fin de semana esquiando en Cerler. Con un par de clics, puedes contratar tu seguro online el día anterior y estar protegido. Muchas aseguradoras ofrecen opciones rápidas y flexibles, ideales para quienes improvisan escapadas a la nieve.</p>
+            </div>
+
+            <!-- Pregunta 4 -->
+            <div class="faq-item">
+                <h4>4. ¿Cubren actividades fuera de pista?</h4>
+                <p>Depende de la aseguradora y el tipo de seguro. Por ejemplo, algunas pólizas cubren solo las zonas habilitadas dentro de las estaciones, como las pistas marcadas en La Molina. Sin embargo, otras, como las ofrecidas por InterMundial, pueden incluir rescates en zonas fuera de pista y en alturas de hasta 5.000 metros. Si planeas aventurarte más allá de las pistas marcadas, revisa siempre las condiciones de tu póliza.</p>
+            </div>
+
+            <!-- CTA Global -->
+            <div class="cta">
+                <img src="images/logo-selectra.png" alt="Logo">
+                <h3>Calculamos tu seguro de forma gratuita</h3>
+                <p>Agentes especializados en asesoramiento en el mercado de seguros.</p>
+                <a href="#calcular-presupuesto" class="btn">Calcular presupuesto</a>
+                <a href="#contacto" class="btn">Te llamamos</a>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
